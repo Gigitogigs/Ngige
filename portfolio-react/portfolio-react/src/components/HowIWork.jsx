@@ -37,7 +37,7 @@ const HowIWork = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.15 }}
               viewport={{ once: true }}
-              className="bg-bg-card border border-border rounded-xl p-8"
+              className="bg-bg-card border border-border rounded-xl p-8 hover:border-accent/50 hover:shadow-[0_0_50px_-12px_rgba(74,158,255,0.2)] hover:-translate-y-2 transition-all duration-300 group"
             >
               <div className="text-4xl mb-4 text-accent">{principle.icon}</div>
               <h3 className="text-xl font-semibold mb-3">{principle.title}</h3>

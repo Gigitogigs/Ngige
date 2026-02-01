@@ -5,11 +5,11 @@ const Projects = () => {
   const projects = [
     {
       type: 'Backend API',
-      title: 'Project Name',
+      title: 'Campus Hub',
       description: 'Brief description of what the project does, the problem it solves, and your approach. Focus on the technical decisions and what you learned.',
       tech: ['Python', 'Django', 'REST API', 'PostgreSQL'],
-      github: '#',
-      live: '#'
+      github: 'https://github.com/Gigitogigs/Campus-Hub', // Put your GitHub repo link here
+      live: '#' // Put your live demo link here (if any)
     },
     {
       type: 'Full-Stack App',
@@ -20,10 +20,10 @@ const Projects = () => {
     },
     {
       type: 'Data Science',
-      title: 'Project Name',
+      title: 'F1 Predictor',
       description: 'Describe the data problem you tackled, your methodology, and the insights you discovered. Show your analytical thinking.',
-      tech: ['Python', 'Pandas', 'Data Analysis'],
-      github: '#'
+      tech: ['Python', 'Pandas', 'Machine Learning'],
+      github: 'https://github.com/Gigitogigs/F1_predictor'
     }
   ]
 
@@ -34,7 +34,7 @@ const Projects = () => {
           <span className="text-accent text-sm uppercase tracking-wider">Featured Work</span>
           <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Projects</h2>
           <p className="text-text-secondary text-lg max-w-3xl">
-            Quality over quantity—each project demonstrates attention to fundamentals 
+            Quality over quantity—each project demonstrates attention to fundamentals
             and real problem-solving.
           </p>
         </div>
@@ -60,6 +60,8 @@ const Projects = () => {
                   {project.github && (
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-text-secondary hover:text-accent transition-colors text-sm"
                     >
                       GitHub →
@@ -68,6 +70,8 @@ const Projects = () => {
                   {project.live && (
                     <a
                       href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-text-secondary hover:text-accent transition-colors text-sm"
                     >
                       Live →

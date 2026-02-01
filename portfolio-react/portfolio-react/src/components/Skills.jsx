@@ -1,13 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaPython, FaJava, FaGitAlt, FaLinux, FaDatabase } from 'react-icons/fa'
-import { SiFlutter, SiDart } from 'react-icons/si'
+import { FaPython, FaJava, FaGitAlt, FaLinux, FaDatabase, FaGithub } from 'react-icons/fa'
+import { SiFlutter, SiDart, SiPostgresql, SiSpringboot } from 'react-icons/si'
 
 const Skills = () => {
   const skillCategories = [
     {
       title: 'Backend & APIs',
-      skills: ['Python', 'Django', 'REST APIs', 'Java']
+      skills: ['Python', 'Django', 'REST APIs', 'Java', 'Spring Boot', 'PostgreSQL']
     },
     {
       title: 'Mobile',
@@ -15,17 +15,25 @@ const Skills = () => {
     },
     {
       title: 'Data & Tools',
-      skills: ['Data Science', 'SQL', 'Git', 'Linux']
+      skills: ['Machine Learning', 'Data Science', 'SQL', 'Linux']
+
+    },
+    {
+      title: 'Version Control',
+      skills: ['Git', 'GitHub']
     }
   ]
 
   const scrollingSkills = [
     { name: 'Python', icon: FaPython, color: '#3776AB' },
     { name: 'Java', icon: FaJava, color: '#007396' },
+    { name: 'Spring Boot', icon: SiSpringboot, color: '#6DB33F' },
+    { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
     { name: 'Flutter', icon: SiFlutter, color: '#02569B' },
     { name: 'Dart', icon: SiDart, color: '#0175C2' },
     { name: 'SQL', icon: FaDatabase, color: '#4479A1' },
     { name: 'Git', icon: FaGitAlt, color: '#F05032' },
+    { name: 'GitHub', icon: FaGithub, color: '#b4b0b0ff' },
     { name: 'Linux', icon: FaLinux, color: '#FCC624' },
   ]
 

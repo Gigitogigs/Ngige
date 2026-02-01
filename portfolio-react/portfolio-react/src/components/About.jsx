@@ -40,18 +40,18 @@ const About = () => {
               My journey into software development was not a lifelong plan. It started with a curiosity about how things work and a desire to build things. I found that coding was a way to bring ideas to life, and I've been hooked ever since.
             </p>
             <p className="text-text-secondary text-lg leading-relaxed">
-              What drives me is the process of building something that works well—not 
-              just making it work, but understanding why it works. I believe in writing 
+              What drives me is the process of building something that works well—not
+              just making it work, but understanding why it works. I believe in writing
               clean, maintainable code and taking the time to do things right.
             </p>
             <p className="text-text-secondary text-lg leading-relaxed">
-              Currently focused on backend development with Python and Django, I also 
-              have experience with Java, Flutter, and data science projects. I'm always 
+              Currently focused on backend development with Python and Django, I also
+              have experience with Java, Flutter, and data science projects. I'm always
               learning, always curious, and committed to growing as a developer.
             </p>
           </div>
 
-          <div className="bg-bg-card border border-border rounded-xl p-8">
+          <div className="bg-bg-card border border-border rounded-xl p-8 hover:border-accent/50 hover:shadow-[0_0_50px_-12px_rgba(74,158,255,0.2)] transition-all duration-500 group">
             <div className="space-y-6">
               {highlights.map((highlight, index) => (
                 <motion.div
