@@ -17,7 +17,7 @@ const About = () => {
     {
       icon: <FaStar />,
       title: 'Quality-Focused',
-      description: 'Clean, diligent work that senior engineers appreciate'
+      description: 'Clean, diligent work that everyone appreciates'
     },
     {
       icon: <FaSearch />,
