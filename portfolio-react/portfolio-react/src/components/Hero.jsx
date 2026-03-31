@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import profileImg from '../assets/profile.png'
+import portfolioImg from '../assets/portfolio.png'
 
 const Hero = () => {
   const fadeInUp = {
@@ -90,7 +90,7 @@ const Hero = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-2xl border border-border/50 transform rotate-3 group-hover:rotate-0 transition-all duration-500">
                 <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10"></div>
                 <img
-                  src={profileImg}
+                  src={portfolioImg}
                   alt="Profile"
                   className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700"
                 />
