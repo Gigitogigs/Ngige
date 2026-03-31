@@ -91,7 +91,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-accent/10 mix-blend-overlay z-10"></div>
                 <img
                   src={portfolioImg}
-                  alt="Profile"
+                  alt="Ngige Mwaniki"
                   className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700"
                 />
               </div>
