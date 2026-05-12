@@ -6,10 +6,10 @@ const Projects = () => {
     {
       type: 'Backend API',
       title: 'Campus Hub',
-      description: 'Brief description of what the project does, the problem it solves, and your approach. Focus on the technical decisions and what you learned.',
+      description: 'A multi-tenant, university-focused platform providing a secure environment for students to engage in campus-specific commerce and events. Features token-based authentication and strict data isolation per university.',
       tech: ['Python', 'Django', 'REST API', 'PostgreSQL'],
-      github: 'https://github.com/Gigitogigs/Campus-Hub', // Put your GitHub repo link here
-      live: '#' // Put your live demo link here (if any)
+      github: 'https://github.com/Gigitogigs/Campus-Hub',
+      live: '#'
     },
     {
       type: 'Full-Stack App',
@@ -21,7 +21,7 @@ const Projects = () => {
     {
       type: 'Data Science',
       title: 'F1 Predictor',
-      description: 'Describe the data problem you tackled, your methodology, and the insights you discovered. Show your analytical thinking.',
+      description: 'A machine learning project built to predict Formula 1 race winners. I utilized Python and Pandas for data manipulation and explored predictive modeling to analyze historical racing data and identify key success factors.',
       tech: ['Python', 'Pandas', 'Machine Learning'],
       github: 'https://github.com/Gigitogigs/F1_predictor'
     }
