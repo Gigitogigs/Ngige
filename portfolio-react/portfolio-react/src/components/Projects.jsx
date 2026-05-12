@@ -13,10 +13,10 @@ const Projects = () => {
     },
     {
       type: 'Full-Stack App',
-      title: 'Project Name',
-      description: 'Brief description of the project. Highlight the challenges you faced and how you solved them. Be honest about what worked and what you\'d improve.',
+      title: 'Haven-Community Platform',
+      description: 'Haven is a community platform designed to foster meaningful connections through shared interests, real-world activities, and local group management.',
       tech: ['Flutter', 'Dart', 'Firebase'],
-      github: '#'
+      github: 'https://github.com/Gigitogigs/Haven/tree/flutter-UI'
     },
     {
       type: 'Data Science',
