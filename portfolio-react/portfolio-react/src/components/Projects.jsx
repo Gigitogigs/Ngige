@@ -24,6 +24,14 @@ const Projects = () => {
       description: 'A machine learning project built to predict Formula 1 race winners. I utilized Python and Pandas for data manipulation and explored predictive modeling to analyze historical racing data and identify key success factors.',
       tech: ['Python', 'Pandas', 'Machine Learning'],
       github: 'https://github.com/Gigitogigs/F1_predictor'
+    },
+    {
+      type: 'Frontend',
+      title: 'W Mwaniki & Associates',
+      description: 'A professional and performant website for a law firm. Developed with Next.js to provide an elegant user interface, smooth animations, and optimized SEO.',
+      tech: ['Next.js', 'React', 'Tailwind CSS'],
+      github: 'https://github.com/Gigitogigs/W_Mwaniki',
+      live: 'https://wmwanikiassociates.co.ke/'
     }
   ]
 
